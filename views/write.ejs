@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="write.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div>
+        <div style="width: auto;">
+            <h1 class="main_text">aaa</h1>
+        </div>
+        <div class="box">
+            <a style="color: white"; href="index.html">취소</a>
+        </div>
+    </div>
+    <script>
+        function btn(){
+            alert("작성완료!");
+            location.href="/index"
+        }
+    </script>
+    <form action="/write" method="post">
+        <table> 
+            <tr><td><h2>글쓰기</h2></td></tr>
+            <tr><td class="header">Title</td></tr>
+            <tr><td><input type="text" placeholder="제목을 입력하세요" name="title"></td></tr>
+            <tr><td class="header">Commtent</td></tr>
+            <tr><td><textarea placeholder="내용을 입력하세요" name="detail"></textarea></td></tr>
+            <tr><td><input type="submit" value="등록" onclick="btn()"></td></tr>
+        </table>
+        </form>
+</body>
+</html>

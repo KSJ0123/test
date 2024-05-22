@@ -1,0 +1,19 @@
+{
+  "name": "for_my_job",
+  "version": "1.0.0",
+  "main": "sign_up.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongodb": "^5.9.2"
+  },
+  "description": ""
+}
